@@ -1,5 +1,4 @@
 require('@nomicfoundation/hardhat-toolbox');
-require('./tasks');
 require('@nomiclabs/hardhat-etherscan');
 require('@nomiclabs/hardhat-ethers');
 require('hardhat-gas-reporter');
@@ -46,7 +45,7 @@ module.exports = {
   solidity: {
     compilers: [
       {
-        version: '0.8.9',
+        version: '0.8.15',
         COMPILER_SETTINGS,
       },
       {
